@@ -1,3 +1,16 @@
+import image1 from "../assets/images/projects/image1.png";
+import image2 from "../assets/images/projects/image2.png";
+import image3 from "../assets/images/projects/image3.png";
+import image4 from "../assets/images/projects/image4.png";
+import image5 from "../assets/images/projects/image5.jpeg";
+import image6 from "../assets/images/projects/image6.jpeg";
+import image7 from "../assets/images/projects/image7.png";
+import image8 from "../assets/images/projects/image8.png";
+import image9 from "../assets/images/projects/image9.png";
+import image10 from "../assets/images/projects/image10.png";
+import image11 from "../assets/images/projects/image11.png";
+import image12 from "../assets/images/projects/image12.png";
+import image13 from "../assets/images/projects/image13.png";
 export const projects = [
   {
     title: "Quierdo Dios (Religious Technology Platform)",
@@ -25,15 +38,15 @@ export const projects = [
     ],
     images: [
       {
-        url: "https://images.unsplash.com/photo-1585829365295-ab7cd400c167?auto=format&fit=crop&w=800&q=80",
+        url: image1,
         alt: "Prayer interface dashboard"
       },
       {
-        url: "https://images.unsplash.com/photo-1600187143917-18aaa2c4c6d7?auto=format&fit=crop&w=800&q=80",
+        url: image2,
         alt: "Community engagement features"
       },
       {
-        url: "https://images.unsplash.com/photo-1470790376778-a9fbc86d70e2?auto=format&fit=crop&w=800&q=80",
+        url: image3,
         alt: "Privacy settings interface"
       }
     ]
@@ -58,15 +71,15 @@ export const projects = [
     ],
     images: [
       {
-        url: "https://images.unsplash.com/photo-1551703599-6b3e8379aa8b?auto=format&fit=crop&w=800&q=80",
+        url: image4,
         alt: "Flicker detection interface"
       },
       {
-        url: "https://images.unsplash.com/photo-1563770660941-20978e870e26?auto=format&fit=crop&w=800&q=80",
+        url: image5,
         alt: "Testing setup"
       },
       {
-        url: "https://images.unsplash.com/photo-1580894894513-541e068a3e2b?auto=format&fit=crop&w=800&q=80",
+        url: image6,
         alt: "Data analysis dashboard"
       }
     ]
@@ -84,11 +97,11 @@ export const projects = [
     ],
     images: [
       {
-        url: "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&w=800&q=80",
+        url: image7,
         alt: "Esports event"
       },
       {
-        url: "https://images.unsplash.com/photo-1511512578047-dfb367046420?auto=format&fit=crop&w=800&q=80",
+        url: image8,
         alt: "Brand identity"
       }
     ]
@@ -107,7 +120,7 @@ export const projects = [
     ],
     images: [
       {
-        url: "https://images.unsplash.com/photo-1531297484001-80022131f5a1?auto=format&fit=crop&w=800&q=80",
+        url: image9,
         alt: "Data visualization interface"
       }
     ]
@@ -125,11 +138,11 @@ export const projects = [
     ],
     images: [
       {
-        url: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=800&q=80",
+        url: image10,
         alt: "Chamber monitoring dashboard"
       },
       {
-        url: "https://images.unsplash.com/photo-1581092334651-ddf26d9a09d0?auto=format&fit=crop&w=800&q=80",
+        url: image11,
         alt: "Real-time data visualization"
       }
     ]
@@ -147,11 +160,11 @@ export const projects = [
     ],
     images: [
       {
-        url: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=800&q=80",
+        url: image12,
         alt: "Website analytics dashboard"
       },
       {
-        url: "https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?auto=format&fit=crop&w=800&q=80",
+        url: image13,
         alt: "SEO performance metrics"
       }
     ]
