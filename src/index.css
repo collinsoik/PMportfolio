@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.timeline-point {
+  opacity: 0.5;
+  transform: translateX(-100%) scale(0.8);
+  transition: all 0.5s ease-out;
+}
+
+.timeline-point.active {
+  opacity: 1;
+  transform: translateX(-100%) scale(1);
+}
+
+.timeline-point.active div {
+  @apply bg-blue-500;
+}
+
+.timeline-point.active span {
+  @apply opacity-100 -translate-x-0 text-blue-600 font-semibold;
+}
+
+.timeline-point div {
+  @apply transition-all duration-500 ease-out;
+}
+
+.timeline-point span {
+  @apply transition-all duration-500 ease-out;
+}
