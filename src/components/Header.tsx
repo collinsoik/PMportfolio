@@ -1,5 +1,6 @@
 import React from 'react';
 import { Briefcase } from 'lucide-react';
+import headshot from '../assets/images/headshot.png';
 
 const Header = () => {
   return (
@@ -20,7 +21,7 @@ const Header = () => {
           <div className="relative">
             <div className="w-40 h-40 rounded-full overflow-hidden border-4 border-white/20 shadow-lg">
               <img 
-                src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=300&h=300&q=80" 
+                src={headshot}
                 alt="Professional headshot"
                 className="w-full h-full object-cover"
               />
