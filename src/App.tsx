@@ -47,27 +47,27 @@ function App() {
     <div className="min-h-screen bg-gray-50">
       <Header />
       
-      <div className="flex container mx-auto">
-        {/* Timeline */}
-        <div className="w-64 shrink-0">
+      <div className="flex flex-col md:flex-row container mx-auto">
+        {/* Timeline - Hidden on mobile */}
+        <div className="hidden md:block w-64 shrink-0">
           <Timeline projects={projects} />
         </div>
         
         {/* Main Content */}
-        <main className="flex-1 px-8 py-8">
+        <main className="flex-1 px-4 md:px-8 py-8">
           {/* Professional Summary */}
-          <section className="mb-16 max-w-4xl">
-            <h2 className="text-3xl font-bold text-gray-800 mb-6">Professional Summary</h2>
-            <p className="text-lg text-gray-600 leading-relaxed">
+          <section className="mb-12 md:mb-16 max-w-4xl">
+            <h2 className="text-2xl md:text-3xl font-bold text-gray-800 mb-4 md:mb-6">Professional Summary</h2>
+            <p className="text-base md:text-lg text-gray-600 leading-relaxed">
               A dynamic and results-driven Project Manager with demonstrated success in leading complex technical projects across software development, hardware implementation, and digital marketing domains. Proven expertise in managing cross-functional teams, delivering projects under aggressive timelines, and implementing innovative solutions to complex technical challenges. Specialized experience in quality engineering, digital transformation, and startup development, with a strong track record of exceeding project objectives while maintaining budget efficiency.
             </p>
           </section>
 
           {/* Projects Timeline */}
-          <section className="mb-16">
-            <h2 className="text-3xl font-bold text-gray-800 mb-8 flex items-center gap-2">
+          <section className="mb-12 md:mb-16">
+            <h2 className="text-2xl md:text-3xl font-bold text-gray-800 mb-6 md:mb-8 flex items-center gap-2">
               Project Timeline
-              <ChevronDown className="w-6 h-6 text-blue-500" />
+              <ChevronDown className="w-5 h-5 md:w-6 md:h-6 text-blue-500" />
             </h2>
             
             <div className="space-y-16">
@@ -85,9 +85,9 @@ function App() {
           </section>
 
           {/* Core Competencies */}
-          <section className="mb-16">
-            <h2 className="text-3xl font-bold text-gray-800 mb-8">Core Competencies</h2>
-            <div className="grid md:grid-cols-2 gap-8">
+          <section className="mb-12 md:mb-16">
+            <h2 className="text-2xl md:text-3xl font-bold text-gray-800 mb-6 md:mb-8">Core Competencies</h2>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-8">
               {[
                 {
                   title: 'Technical Leadership',
@@ -119,9 +119,9 @@ function App() {
           </section>
 
           {/* Impact Metrics */}
-          <section className="mb-16 max-w-4xl">
-            <h2 className="text-3xl font-bold text-gray-800 mb-6">Impact Metrics</h2>
-            <p className="text-lg text-gray-600 mb-4">Throughout these projects, I have consistently demonstrated:</p>
+          <section className="mb-12 md:mb-16 max-w-4xl">
+            <h2 className="text-2xl md:text-3xl font-bold text-gray-800 mb-6 md:mb-8">Impact Metrics</h2>
+            <p className="text-base md:text-lg text-gray-600 mb-4">Throughout these projects, I have consistently demonstrated:</p>
             <ul className="list-disc list-inside space-y-2 text-gray-600 text-lg">
               <li>Project completion averaging 20% under estimated timeline</li>
               <li>Achievement of 95%+ stakeholder satisfaction</li>
@@ -134,9 +134,9 @@ function App() {
           </section>
 
           {/* Professional Development */}
-          <section className="mb-16 max-w-4xl">
-            <h2 className="text-3xl font-bold text-gray-800 mb-6">Professional Development</h2>
-            <p className="text-lg text-gray-600 mb-4">My commitment to continuous improvement includes:</p>
+          <section className="mb-12 md:mb-16 max-w-4xl">
+            <h2 className="text-2xl md:text-3xl font-bold text-gray-800 mb-6 md:mb-8">Professional Development</h2>
+            <p className="text-base md:text-lg text-gray-600 mb-4">My commitment to continuous improvement includes:</p>
             <ul className="list-disc list-inside space-y-2 text-gray-600 text-lg">
               <li>Regular engagement with emerging technologies</li>
               <li>Active participation in industry conferences</li>
