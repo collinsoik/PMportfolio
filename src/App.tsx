@@ -36,8 +36,19 @@ function App() {
       }
     );
 
-    projectRefs.current.forEach((ref) => {
-      if (ref) observer.observe(ref);
+    projectRefs.current.forEach((ref, index) => {
+      if (ref) {
+        observer.observe(ref);
+        // Automatically show the first project
+        if (index === 0) {
+          ref.classList.add('opacity-100', 'translate-y-0');
+          ref.classList.remove('opacity-0', 'translate-y-4');
+          const timelinePoint = document.querySelector('[data-project-index="0"]');
+          if (timelinePoint) {
+            timelinePoint.classList.add('active');
+          }
+        }
+      }
     });
 
     return () => observer.disconnect();
@@ -62,6 +73,13 @@ function App() {
               A dynamic and results-driven Project Manager with demonstrated success in leading complex technical projects across software development, hardware implementation, and digital marketing domains. Proven expertise in managing cross-functional teams, delivering projects under aggressive timelines, and implementing innovative solutions to complex technical challenges. Specialized experience in quality engineering, digital transformation, and startup development, with a strong track record of exceeding project objectives while maintaining budget efficiency.
             </p>
           </section>
+
+          <div className="flex justify-center mb-8">
+            <div className="scroll-indicator flex flex-col items-center text-gray-400">
+              <span className="text-sm mb-2">Scroll to explore</span>
+              <ChevronDown className="w-6 h-6" />
+            </div>
+          </div>
 
           {/* Projects Timeline */}
           <section className="mb-12 md:mb-16">
