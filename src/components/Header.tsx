@@ -1,6 +1,6 @@
 import React from 'react';
 import { Briefcase } from 'lucide-react';
-import headshot from '../assets/images/headshot.png';
+import headshot from '../assets/images/headshot.webp';
 
 const Header = () => {
   return (
