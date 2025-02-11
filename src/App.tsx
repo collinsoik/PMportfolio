@@ -124,24 +124,11 @@ function App() {
             <p className="text-base md:text-lg text-gray-600 mb-4">Throughout these projects, I have consistently demonstrated:</p>
             <ul className="list-disc list-inside space-y-2 text-gray-600 text-lg">
               <li>Project completion averaging 20% under estimated timeline</li>
-              <li>Achievement of 95%+ stakeholder satisfaction</li>
               <li>Successful management of teams up to 22 members</li>
               <li>Significant ROI improvements across all projects</li>
               <li>Strong track record of technical innovation</li>
               <li>Consistent achievement of project objectives</li>
               <li>Substantial cost reduction across projects</li>
-            </ul>
-          </section>
-
-          {/* Professional Development */}
-          <section className="mb-12 md:mb-16 max-w-4xl">
-            <h2 className="text-2xl md:text-3xl font-bold text-gray-800 mb-6 md:mb-8">Professional Development</h2>
-            <p className="text-base md:text-lg text-gray-600 mb-4">My commitment to continuous improvement includes:</p>
-            <ul className="list-disc list-inside space-y-2 text-gray-600 text-lg">
-              <li>Regular engagement with emerging technologies</li>
-              <li>Active participation in industry conferences</li>
-              <li>Membership in professional organizations</li>
-              <li>Ongoing certification maintenance</li>
             </ul>
           </section>
         </main>
