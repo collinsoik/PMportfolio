@@ -10,7 +10,7 @@ const Header = () => {
           <div className="text-center md:text-left">
             <div className="flex items-center gap-4 mb-6 justify-center md:justify-start">
               <Briefcase className="w-8 h-8 md:w-10 md:h-10" />
-              <h1 className="text-3xl md:text-4xl font-bold">Project Management Portfolio</h1>
+              <h1 className="text-3xl md:text-4xl font-bold">Collin's Project Management Portfolio</h1>
             </div>
             <p className="text-lg md:text-xl text-blue-100 max-w-3xl">
               Specialized experience in quality engineering, digital transformation, and startup development, 

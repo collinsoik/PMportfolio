@@ -2,14 +2,14 @@ import image1 from "../assets/images/projects/image1.png";
 import image2 from "../assets/images/projects/image2.png";
 import image3 from "../assets/images/projects/image3.png";
 import image4 from "../assets/images/projects/image4.png";
-import image5 from "../assets/images/projects/image5.jpeg";
+import image5 from "../assets/images/projects/image5.webp";
 import image6 from "../assets/images/projects/image6.jpeg";
-import image7 from "../assets/images/projects/image7.png";
+import image7 from "../assets/images/projects/image7.webp";
 import image8 from "../assets/images/projects/image8.png";
 import image9 from "../assets/images/projects/image9.png";
 import image10 from "../assets/images/projects/image10.png";
 import image11 from "../assets/images/projects/image11.png";
-import image12 from "../assets/images/projects/image12.png";
+import image12 from "../assets/images/projects/image12.webp";
 import image13 from "../assets/images/projects/image13.png";
 export const projects = [
   {
@@ -32,7 +32,7 @@ export const projects = [
     ],
     achievements: [
       "Completed project at 50% of estimated timeline and cost",
-      "Secured over 10,000 waitlisted users pre-launch",
+      "Secured over 1,000 waitlisted users pre-launch",
       "Successfully implemented comprehensive data privacy protection",
       "Achieved high client satisfaction ratings"
     ],
